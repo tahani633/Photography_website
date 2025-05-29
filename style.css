@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #61630c;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: rgb(241, 234, 234);
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    background-color: #b9bb53;
+    padding: 0.5rem;
+}
+nav a {
+    color: rgb(222, 233, 73);
+    margin-right: 15px;
+    text-decoration: none;
+}
+/* تنسيق موحد للنماذج */
+.contact-form, .booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    text-align: center;
+}
+
+/* تنسيق النموذج نفسه */
+form {
+    width: 320px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* تنسيق الحقول */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f3eaea;
+    border-radius: 5px;
+}
+
+/* زر الإرسال */
+form button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #222;
+}
